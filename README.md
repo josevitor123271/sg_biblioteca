@@ -16,8 +16,8 @@ This project was created using `bun init` in bun v1.2.5. [Bun](https://bun.sh) i
 
 Nome da Equipe:
 
-Adállya Oliveira Miranda
-Micael Dias Ferreira da Silva
-Maria Monalisa Andrade Macedo Moura
-José Vitor de Sousa Feitosa
+Adállya Oliveira Miranda <br>
+Micael Dias Ferreira da Silva <br>
+Maria Monalisa Andrade Macedo Moura <br>
+José Vitor de Sousa Feitosa <br>
 Mylena Da Silva Coelho
