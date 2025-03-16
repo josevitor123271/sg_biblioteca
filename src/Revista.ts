@@ -15,13 +15,7 @@ interface IRevista extends IItem {
 
 // Classe Revista que herda de Item e implementa IRevista
 class Revista extends Item implements IRevista {
-    constructor(
-        id: number,
-        titulo: string,
-        ano: number,
-        public edicao: number,
-        public periodicidade: string
-    ) {
+    constructor(id: number, titulo: string,  ano: number, public edicao: number, public periodicidade: string) {
         super(id, titulo, ano); // Chama o construtor da classe pai
     }
 
@@ -32,7 +26,9 @@ class Revista extends Item implements IRevista {
     }
 }
 
-// // Exemplo de uso:
+export default Revista;
+
+// Exemplo de uso:
 // const revista1 = new Revista(1, "National Geographic", 2023, 150, "Mensal");
 // revista1.exibirDetalhes();
-// // Saída: ID: 1 - Título: National Geographic - Ano: 2023 - Edição: 150 - Periodicidade: Mensal
+// Saída: ID: 1 - Título: National Geographic - Ano: 2023 - Edição: 150 - Periodicidade: Mensal

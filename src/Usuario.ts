@@ -84,12 +84,14 @@ class Usuario implements IUsuario {
     }
 }
 
+export default Usuario;
+
 // Exemplos de classe
 
-const item1 = new Item(1, "O Senhor dos Anéis", 1954);
-const monalisa = new Usuario(1, "Monalisa", "monalisa.moura@email.com", "11 99999-9999");
+// const item1 = new Item(1, "O Senhor dos Anéis", 1954);
+// const monalisa = new Usuario(1, "Monalisa", "monalisa.moura@email.com", "11 99999-9999");
 
-console.log(monalisa.emprestarItem(item1)); // true (item emprestado com sucesso)
-console.log(monalisa.emprestarItem(item1)); // false (item já emprestado)
-console.log(monalisa.devolverItem(1)); // true (item devolvido com sucesso)
-console.log(monalisa.devolverItem(2)); // false (item não encontrado)
+// console.log(monalisa.emprestarItem(item1)); // true (item emprestado com sucesso)
+// console.log(monalisa.emprestarItem(item1)); // false (item já emprestado)
+// console.log(monalisa.devolverItem(1)); // true (item devolvido com sucesso)
+// console.log(monalisa.devolverItem(2)); // false (item não encontrado)

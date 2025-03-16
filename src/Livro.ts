@@ -15,14 +15,7 @@ interface ILivro extends IItem {
 
 // Classe Livro herdando de Item
 class Livro extends Item implements ILivro {
-    constructor(
-        id: number,
-        titulo: string,
-        ano: number,
-        public autor: string,
-        public editora: string,
-        public numeroPaginas: number
-    ) {
+    constructor(id: number, titulo: string, ano: number, public autor: string, public editora: string, public numeroPaginas: number) {
         super(id, titulo, ano);
     }
 
@@ -33,7 +26,9 @@ class Livro extends Item implements ILivro {
     }
 }
 
-// // Exemplo de uso:
+export default Livro;
+
+// Exemplo de uso:
 // const livro1 = new Livro(1, "1984", 1949, "George Orwell", "Secker & Warburg", 328);
 // livro1.exibirDetalhes();
-// // Saída: ID: 1 - Título: 1984 - Autor: George Orwell - Ano: 1949 - Editora: Secker & Warburg - Páginas: 328
+// Saída: ID: 1 - Título: 1984 - Autor: George Orwell - Ano: 1949 - Editora: Secker & Warburg - Páginas: 328
